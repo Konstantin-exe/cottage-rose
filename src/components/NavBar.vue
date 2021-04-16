@@ -1,6 +1,6 @@
 <template>
-  <b-navbar toggleable type="dark" variant="dark">
-    <b-navbar-brand href="#">NavBar</b-navbar-brand>
+  <b-navbar toggleable type="light" variant="light">
+    <b-navbar-brand href="/">Melitta's Cottage Rose</b-navbar-brand>
 
     <b-navbar-toggle target="navbar-toggle-collapse">
       <template #default="{ expanded }">
@@ -11,8 +11,8 @@
 
     <b-collapse id="navbar-toggle-collapse" is-nav>
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#">Link 1</b-nav-item>
-        <b-nav-item href="#">Link 2</b-nav-item>
+        <b-nav-item href="/">Home</b-nav-item>
+        <b-nav-item href="/about">About</b-nav-item>
         <b-nav-item href="#" disabled>Disabled</b-nav-item>
       </b-navbar-nav>
     </b-collapse>

@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <NavBar />
-    <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-
+    <NavBar id="nav-bar" />
     <router-view />
   </div>
 </template>
@@ -24,6 +21,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -33,5 +31,11 @@ a {
   &.router-link-exact-active {
     color: #42b983;
   }
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 </style>
