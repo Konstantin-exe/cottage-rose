@@ -5,20 +5,28 @@
       src="../assets/bg-roses.jpeg"
       id="background-img"
     />
-    <div>
-      <h1>Melitta Müllner</h1>
-      <img
-        alt="Bild der Geschäftsführerin Melitta Müllner"
-        src="../assets/melitta.jpeg"
-        id="portrait"
-      />
-      <span
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eos
-        veniam dolorem, natus numquam itaque facere molestias voluptatum ex
-        minima voluptas reprehenderit facilis voluptatibus aliquam sapiente
-        vitae quod. Molestias, maxime.</span
-      >
-    </div>
+    <b-container class="description-container">
+      <b-row class="justify-content-md-center">
+        <div>
+          <h1>Melitta Müllner</h1>
+          <h6>Geschäftsführerin</h6>
+          <img
+            alt="Bild der Geschäftsführerin Melitta Müllner"
+            src="../assets/melitta.jpeg"
+            id="portrait"
+          />
+          <b-row class="justify-content-sm-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, eos
+            veniam dolorem, natus numquam itaque facere molestias voluptatum ex
+            minima voluptas reprehenderit facilis voluptatibus aliquam sapiente
+            vitae quod. Molestias, maxime. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Eum possimus iste veritatis
+            necessitatibus illum et rem fugit suscipit in! Ab culpa porro, error
+            assumenda sequi odio illo soluta quod et.</b-row
+          >
+        </div>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -40,6 +48,7 @@ img h1 {
   height: 100vh;
   width: 100%;
   z-index: -1;
+  margin-bottom: 50px;
 }
 span {
   display: block;
@@ -48,5 +57,7 @@ span {
 }
 #portrait {
   width: 25%;
+  border-radius: 50%;
+  margin: 20px;
 }
 </style>
